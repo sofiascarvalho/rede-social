@@ -30,6 +30,5 @@ document.addEventListener("DOMContentLoaded", function() {
             console.error("❌ Erro na requisição:", error);
             alert("Erro ao conectar com o servidor.");
         }
-        
     });
 });
