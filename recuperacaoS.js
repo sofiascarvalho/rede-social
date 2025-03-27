@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
         event.preventDefault()
 
         const senha = document.getElementById("newPass").value
+        const confirmarSenha=document.getElementById("confirmarSenha").value
 
         const data ={
             senha: senha
