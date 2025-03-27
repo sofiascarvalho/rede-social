@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
             imagemPerfil: imagemPerfil,
             senhaRecuperacao: senhaRecuperacao
         };
+        console.log(dados)
 
         console.log("🔍 Dados enviados:", JSON.stringify(dados, null, 2));
 
