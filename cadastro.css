@@ -35,7 +35,7 @@ body {
     margin-top: 20vh;
     text-align: center;
     gap: 20px;
-    height: 40vh;
+    height: 43vh;
     width: 20vw;
     background-color: #F5F5F5;
     border-radius: 40px;
@@ -43,7 +43,6 @@ body {
 
 h2 {
     font-weight: bold;
-    text-decoration:underline;
 }
 
 form {
@@ -55,14 +54,16 @@ input {
     margin: 10px 0;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 button {
+    align-items: center;
+    justify-content: center;
+    width: 12vw;
+    height: 5vh;
     background-color: #FFD7DE;
-    border: none;
-    padding: 10px;
-    margin-top: 5vh;
-    border-radius: 10px;
+    margin-top: 2vh;
+    border-radius: 20px;
     cursor: pointer;
 }

@@ -14,13 +14,15 @@ document.addEventListener("DOMContentLoaded", function () {
         const senha = document.getElementById("senha").value;
         const premium = document.getElementById("plano").value || "0"; // Alterado para 'premium' e mantendo string
         const imagemPerfil = document.getElementById("imagem").value; // Alterado de 'imagem' para 'imagemPerfil'
+        const senhaRecuperacao = document.getElementById("senhaRecuperacao").value
 
         const dados = {
             nome: nome,
             email: email,
             senha: senha,
             premium: premium,
-            imagemPerfil: imagemPerfil
+            imagemPerfil: imagemPerfil,
+            senhaRecuperacao: senhaRecuperacao
         };
 
         console.log("🔍 Dados enviados:", JSON.stringify(dados, null, 2));
@@ -46,3 +48,5 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+
