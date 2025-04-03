@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+
+.btn-home img,
+.btn-settings img {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-edit {
+    background-color: #e4e4e4;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bio {
+    text-align:start;
+    margin-bottom: 20px;
+}
+
+.usuario {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.descricao, .traducao, .seguido {
+    font-size: 14px;
+    color: #555;
+}
+
+.containerPosts {
+    display: flex;
+    gap: 10px;
+}
+
+.containerPosts img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    background-color: #dcdcdc;
+}
